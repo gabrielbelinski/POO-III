@@ -9,10 +9,6 @@ export default class Cliente {
     private _endereco: Endereco
     private _telefones: Telefone[]
 
-    constructor(){
-        this._telefones = []
-    }
-
     public get nome(): string {
         return this._nome
     }
@@ -48,13 +44,11 @@ export default class Cliente {
         this._endereco = value
     }
 
-    public get telefones(): Telefone[] {
+    public get telefone(): Telefone[] {
         return this._telefones
     }
-    public set telefones(value: Telefone[]) {
+    public set telefone(value: Telefone[]) {
         this._telefones = value
     }
-
-   
 
 }
