@@ -6,12 +6,7 @@ export default class Venda{
     private _data: number
     private _cliente: Cliente
     private _produtos: Produto[]
-
    
-   
-    constructor(){
-        this._produtos = []
-    }
 
     public get codigo(): number {
         return this._codigo
@@ -42,13 +37,12 @@ export default class Venda{
     }
 
     public calcularTotal(): number{
-        let valorTotal: number = 0
+        let valorTotal: number;
         for(let i = 0; i < this.produtos.length; i++){
             valorTotal += this.produtos[i].valor
         }
         return valorTotal
     }
 
-    
 
 }
