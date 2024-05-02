@@ -8,4 +8,4 @@ export default class CarTransport extends Transport{
         return new Car()
     }
 
-}
+}   
