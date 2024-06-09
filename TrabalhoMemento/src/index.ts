@@ -1,3 +1,6 @@
+/* Design Patterns: Memento
+Alunos: Gabriel Belinski e Gabriel Marochi */
+
 import PhoneSettingsCaretaker from "./caretaker/PhoneSettingsCaretaker";
 import EBluetoothStatus from "./settings/Enum/EBluetoothStatus";
 import EDataStatus from "./settings/Enum/EDataStatus";
